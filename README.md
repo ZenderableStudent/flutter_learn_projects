@@ -1,7 +1,7 @@
 # Mi Card with Dicee
-![alt text](https://raw.githubusercontent.com/Zenderable/flutter-learn-projects/tree/master/assets/micard.png)
+![Mi Card with Dicee](https://github.com/Zenderable/flutter-learn-projects/blob/master/assets/micard.png)
 # Xylophone
-![alt text](https://raw.githubusercontent.com/Zenderable/flutter-learn-projects/tree/master/assets/xylophone.gif)
+![Xylophone](https://github.com/Zenderable/flutter-learn-projects/blob/master/assets/xylophone.gif)
 # Major Kononowicz Soundboard
 ## Warning! Parental Advisory Explicit Content
-![alt text](https://raw.githubusercontent.com/Zenderable/flutter-learn-projects/tree/master/assets/kononowicz.png)
+![alt text](https://github.com/Zenderable/flutter-learn-projects/blob/master/assets/kononowicz.png)
