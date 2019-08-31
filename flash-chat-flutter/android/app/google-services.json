@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744380680873",
+    "firebase_url": "https://geek-n-chat.firebaseio.com",
+    "project_id": "geek-n-chat",
+    "storage_bucket": "geek-n-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744380680873:android:982584bba1533e76",
+        "android_client_info": {
+          "package_name": "me.zenderable.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744380680873-2epsdl416fqjfuqok4vfm0c0o0ac84lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc3QoJyG5WSu8dXcELkFQpd0W_rAvRv9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744380680873-2epsdl416fqjfuqok4vfm0c0o0ac84lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
