@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:to_dodo_app/data/task_data.dart';
 
 class ListOfToDo extends StatelessWidget {
   ListOfToDo({this.text, this.isChecked = false, this.checkBoxCallback});

@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
-import 'package:flutter/scheduler.dart';
-import 'package:to_dodo_app/components/task.dart';
-import 'package:to_dodo_app/components/tasks_list.dart';
+import 'package:to_dodo_app/data/task.dart';
+import 'package:to_dodo_app/data/task_data.dart';
+import 'package:provider/provider.dart';
 
 String taskName;
 
 class AddTaskScreen extends StatelessWidget {
 
-  AddTaskScreen({this.addTaskCallback});
-  final Function addTaskCallback;
+//  AddTaskScreen({this.addTaskCallback});
+//  final Function addTaskCallback;
 
   @override
   Widget build(BuildContext context) {
@@ -45,24 +45,11 @@ class AddTaskScreen extends StatelessWidget {
             color: Colors.lightBlueAccent,
             onPressed: () {
               if(taskName != null) {
-                addTaskCallback(taskName);
+                Provider.of<TaskData>(context).addTask(taskName);
+                //addTaskCallback(taskName);
                 taskName = null;
+                Navigator.pop(context);
               } else {
-//                showDialog(context: context, builder: (BuildContext context) {
-//                  return AlertDialog(
-//                    titlePadding: EdgeInsets.all(20.0),
-//                    title: new Text("Add your task!"),
-//                    actions: <Widget>[
-//                      // usually buttons at the bottom of the dialog
-//                      new FlatButton(
-//                        child: new Text("Close"),
-//                        onPressed: () {
-//                          Navigator.of(context).pop();
-//                        },
-//                      ),
-//                    ],
-//                  );
-//                });
                 Alert(
                   context: context,
                   type: AlertType.info,
@@ -80,7 +67,6 @@ class AddTaskScreen extends StatelessWidget {
                     ),
                   ],
                 ).show();
-                print('Nothing in textfield');
               }
             },
             child: Text(
